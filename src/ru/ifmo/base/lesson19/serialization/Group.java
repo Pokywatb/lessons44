@@ -1,8 +1,9 @@
 package ru.ifmo.base.lesson19.serialization;
 
 
+import java.io.Serializable;
 
-public class Group    {
+public class Group  implements Serializable {
     private String title;
     private int maxKnowledge;
 

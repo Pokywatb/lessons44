@@ -1,7 +1,9 @@
 package ru.ifmo.base.lesson19.serialization;
 
 
-public class Human  {
+import java.io.Serializable;
+
+public class Human implements Serializable {
     protected String name = "Человек";
     protected int age;
 

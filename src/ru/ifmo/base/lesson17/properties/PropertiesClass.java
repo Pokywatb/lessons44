@@ -24,7 +24,7 @@ public class PropertiesClass {
 
         try (InputStream input = PropertiesClass.class
                 .getClassLoader()
-                .getResourceAsStream("example.properties")){
+                .getResourceAsStream("src/sources/example.properties")){
             properties.load(input);
         } catch (IOException e) {
             e.printStackTrace();
